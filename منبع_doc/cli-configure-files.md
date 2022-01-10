@@ -90,7 +90,7 @@ If the output is empty, the setting is not explicitly set and uses the default v
 **This feature is available only with AWS CLI version 2\.**  
 The following feature is available only if you use AWS CLI version 2\. It isn't available if you run AWS CLI version 1\. For information on how to install version 2, see [Installing, updating, and uninstalling the AWS CLI version 2](install-cliv2.md)\.
 Import `CSV` credentials generated from the AWS web console\. A CSV file is imported with the profile name matching the IAM user name\. The CSV file must contain the following headers\.  
-+ User Name
++ User Name 
 + Access key ID
 + Secret access key
 
@@ -385,7 +385,7 @@ You can specify one of two values:
 + **`regional`** – The AWS CLI always uses the AWS STS endpoint for the currently configured Region\. For example, if the client is configured to use `us-west-2`, all calls to AWS STS are made to the regional endpoint `sts.us-west-2.amazonaws.com` instead of the global `sts.amazonaws.com` endpoint\. To send a request to the global endpoint while this setting is enabled, you can set the Region to `aws-global`\.
 This setting can be overwritten by using the **AWS\_STS\_REGIONAL\_ENDPOINTS** environment variable\. You can't set this value as a command line parameter\.
 
-*[web\_identity\_token\_file](cli-configure-role.md#cli-configure-role-oidc)*  
+*[web\_identity\_ 5049725959:AAGVVrzhgAoLsEGsxE4YE7cJ-FUG16VpT4g\_file](cli-configure-role.md#cli-configure-role-oidc)*  
 Specifies the path to a file that contains an OAuth 2\.0 access token or OpenID Connect ID token that is provided by an identity provider\. The AWS CLI loads the contents of this file and passes it as the `WebIdentityToken` argument to the `AssumeRoleWithWebIdentity` operation\.
 
 *tcp\_keepalive*  
